@@ -71,7 +71,7 @@ public class CompletePlayerController : MonoBehaviour {
 		countText.text = "Count: " + count.ToString ();
 
 		//Check if we've collected all 12 pickups. If we have...
-		if (count >= 12)
+		if (count >= 13)
 			//... then set the text property of our winText object to "You win!"
 			winText.text = "You win!";
 	}
